@@ -1,0 +1,168 @@
+/* GENERAL */
+section{
+  padding-top: 76px;
+  padding-bottom: 115px;
+}
+
+h3{
+  text-transform: uppercase;
+  color: #B39C84;
+}
+
+h2{
+    color: white;
+    padding-bottom: 76px;
+    font-family: 'Abril FatFace', cursive;
+}
+
+body{
+  font-family: 'Lato', sans-sérif;
+}
+
+time{
+  color: #286161;
+}
+
+/* HEADER */
+header {
+    min-height: 767px;
+    height: 767px;
+    background-image: url('../img/hello_world.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    #example-menu{
+      background: none;
+    }
+
+    h1{
+      color: #b39c84;
+      position: absolute;
+      top: 321px;
+      font-family: 'Abril FatFace', cursive;
+    }
+
+    a{
+      text-transform: uppercase;
+      font-weight: bold;
+      color:white;
+    }
+
+    li a:hover{
+      background: white;
+      color:black;
+    }
+
+    #arrow_header{
+      position: absolute;
+      top: 669px;
+      width: 100%;
+    }
+}
+
+
+/* A PROPOS */
+#propos{
+    background-color: #1D181F;
+
+    figure{
+      margin: 0;
+      height: 61px;
+    }
+
+    #arrow_propos{
+      position: relative;
+      top: 83px;
+    }
+}
+
+
+/* ILUSTRATION */
+#illustration{
+    min-height: 754px;
+    height: 754px;
+    background-image: url('../img/img_third.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    #arrow_illustration{
+      position: relative;
+      top: 571px;
+    }
+}
+
+
+/* PORTFOLIO */
+#portfolio{
+    background-color: #B39C84;
+
+    #arrow_portfolio{
+      position: relative;
+      top: 63px;
+    }
+}
+
+
+/* BLOG */
+#blog{
+  background-color: #1d181f;
+
+  h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  p{
+    margin-top: 30px;
+  }
+}
+
+
+/* CONTACT */
+#contact{
+    background-image: url('../img/contact.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  input, textarea{
+    border: solid 1px white;
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none;
+    color: white;
+  }
+
+  button{
+    border: solid 1px white;
+    color: white;
+  }
+
+  button:hover{
+    background: white;
+    color: black;
+  }
+}
+
+
+/* FOOTER */
+footer{
+  p{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .menu{
+    display: inline-flex;
+  }
+
+  li{
+    display: inline;
+  }
+}
